@@ -42,7 +42,7 @@
     _webServer.allowHiddenItems = YES;
     
     // 限制文件上传类型
-    _webServer.allowedFileExtensions = @[@"doc", @"docx", @"xls", @"xlsx", @"txt", @"pdf"];
+    _webServer.allowedFileExtensions = @[@"mp3", @"doc", @"docx", @"xls", @"xlsx", @"txt", @"pdf"];
     // 设置网页标题
     _webServer.title = @"兔·小白的demo";
     // 设置展示在网页上的文字(开场白)
